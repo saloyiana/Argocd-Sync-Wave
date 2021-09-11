@@ -4,4 +4,4 @@ metadata:
   name: <demo>
   annotations:
     argocd.argoproj.io/sync-wave: "2"
-    avp.kubernetes.io/path: "test/data/1"
+    avp.kubernetes.io/path: "test/data/test"
