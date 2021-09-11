@@ -6,9 +6,9 @@ spec:
   generators:
   - git:
       repoURL: https://github.com/saloyiana/Argocd-Sync-Wave
-      revision: HEAD
+      revision: main
       directories:
-      - path: test-app
+      - path: test-app/*
   template:
     metadata:
       name: '{{path.basename}}'
