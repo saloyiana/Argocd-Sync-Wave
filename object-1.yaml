@@ -1,0 +1,10 @@
+apiVersion: batch/v1
+kind: Pod
+metadata:
+  name: Backend
+  annotations:
+    argocd.argoproj.io/sync-wave: "1"
+ spec:
+  containers:
+  - name: backend
+    image: alpine
