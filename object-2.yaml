@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: Frontend
+  annotations:
+    argocd.argoproj.io/sync-wave: "3"
+ spec:
+  containers:
+  - name: Frontend
+    image: alpine
