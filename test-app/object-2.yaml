@@ -1,11 +1,6 @@
 apiVersion: v1
-kind: Pod
+kind: Namespace
 metadata:
   name: Frontend
-  namespace: test
   annotations:
-    argocd.argoproj.io/sync-wave: "3"
- spec:
-  containers:
-  - name: Frontend
-    image: alpine
+    argocd.argoproj.io/sync-wave: "1"
