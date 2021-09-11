@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: <demo>
+  name: <demo-key>
   annotations:
     argocd.argoproj.io/sync-wave: "2"
     avp.kubernetes.io/path: "test/data/test"
